@@ -1,13 +1,6 @@
 "use client";
 import React from "react";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "./ui/dialog";
+import {Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger} from "./ui/dialog";
 import { Plus } from "lucide-react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
