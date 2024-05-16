@@ -38,7 +38,7 @@ const DashboardPage = (props: Props) => {
         </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default DashboardPage;

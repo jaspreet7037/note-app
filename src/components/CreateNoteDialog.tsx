@@ -1,6 +1,13 @@
 "use client";
 import React from "react";
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "./ui/dialog";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "./ui/dialog";
 import { Plus } from "lucide-react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
@@ -18,19 +25,20 @@ const CreateNoteDialog = (props: Props) => {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-            <DialogTitle>
-                New NoteBook
-            </DialogTitle>
-            <DialogDescription>
-                You can Create a new Notebook by clicking the button below
-            </DialogDescription>
+          <DialogTitle>New NoteBook</DialogTitle>
+          <DialogDescription>
+            You can Create a new Notebook by clicking the button below
+          </DialogDescription>
         </DialogHeader>
         <form>
-            <Input placeholder="Name..." />
-            <div className="h-4"></div>
-            <div className="flex items-center"></div>
-            <Button>Create</Button>
-            <Button type="reset" variant={'secondary'}>Cancel</Button>
+          <Input placeholder="Name..." />
+          <div className="h-4"></div>
+          <div className="flex items-center">
+            <Button className="bg-color-600">Create</Button>
+            <Button type="reset" variant={"secondary"}>
+              Cancel
+            </Button>
+          </div>
         </form>
       </DialogContent>
     </Dialog>
