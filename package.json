@@ -22,6 +22,7 @@
     "lucide-react": "^0.378.0",
     "neonctl": "^1.29.3",
     "next": "14.2.3",
+    "openai-edge": "^1.2.2",
     "pg": "^8.11.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
